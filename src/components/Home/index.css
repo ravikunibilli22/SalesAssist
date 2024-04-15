@@ -1,0 +1,152 @@
+.home-container{
+    background-color: #0c0c0c;
+    width: 1280px;
+    height: 1677px;
+    top: -376px;
+    left: 253px;
+    gap: 0px;
+    opacity: 0px;
+    background-size: cover;
+    margin-top: auto;
+    width: auto;
+    padding-top: 0px;
+}
+@media screen and (min-width:768px) {
+    .home-container{
+        margin-left: 30px;
+        width: 70%;
+        .header-container{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    @media  screen and (min-width: 768px) {
+        .home-container{
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .header-container{
+            width: 70%;
+        }
+    }
+
+}
+
+
+.header-container{
+    width: 197px;
+    height: 28px;
+    top: 19px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+    width: 197px;
+}
+.header{
+    font-family: Comme;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.34px;
+    letter-spacing: 0.55em;
+    text-align: left;
+    color:#E5DFD9;
+}
+.head-icons-container{
+    display: flex;
+    flex-direction: row;
+    width: 161px;
+    height: 24px;
+    top: 21px;
+    left: 1093px;
+    gap: 0px;
+    opacity: 0px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+.header-heading-container{
+    height: 28px;
+    top: 19px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+.nav-headers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.react-icons{
+    font-family: Font Awesome 5 Pro;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #E5DFD9;
+    width: 161px;
+    height: 24px;
+    top: 21px;
+    left: 1093px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.head-options-container{
+    width: 472px;
+    height: 18px;
+    top: 69px;
+    left: 404px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 500px;
+    padding-bottom: 10px;
+}
+.head-options-content{
+    font-family: Encode Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #E5DFD9;
+
+}
+
+.backpacks-container{
+    padding-bottom: 10px;
+}
+
+.bags-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #E5DFD9;
+    padding: 10px;
+    font-family: Encode Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bags-head{
+    font-family: Encode Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+.bags-container{
+    padding-bottom: 100px;
+}

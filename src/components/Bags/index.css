@@ -1,0 +1,70 @@
+.bags-backs{
+    display: flex;
+    flex-direction: row;
+    
+}
+.backs{
+    padding-bottom: 100px;
+}
+.list-item{
+    width: 280.15px;
+height: 483.43px;
+left: 312.15px;
+gap: 0px;
+opacity: 0px;
+padding-left: 10px;
+
+}
+.product-name{
+    font-family: Encode Sans;
+    font-size: 20.5px;
+    font-weight: 500;
+    line-height: 25.62px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #E5DFD9;
+}
+.image{
+    background-image: url("https://res.cloudinary.com/domgdxsu4/image/upload/v1713090962/qtnmfl2htza4r8t9uvei.png");
+    width: 283.57px;
+    height: 427.06px;
+    top: -11.96px;
+    left: 312.15px;
+    gap: 0px;
+    opacity: 0px;
+    padding-bottom: 0%;
+
+}
+.bookmark{
+    width: 26px;
+    height: 34px;
+    top: 17.08px;
+    left: 237.44px;
+    gap: 0px;
+    opacity: 0px;
+    justify-content: end;
+    columns: #0C0C0C;
+}
+.product-content{
+    background-color: #141414;
+    padding-top: 0%;
+}
+.product-rate{
+    font-family: Encode Sans;
+    font-size: 18.79px;
+    font-weight: 700;
+    line-height: 23.49px;
+    text-align: right;
+    color: #E5DFD9;
+}
+.product-off{
+    color: green;
+}
+.product-add{
+    font-family: Font Awesome 5 Pro;
+    font-size: 34.78px;
+    font-weight: 300;
+    line-height: 34.78px;
+    text-align: center;
+    color: #E5DFD9;
+}
